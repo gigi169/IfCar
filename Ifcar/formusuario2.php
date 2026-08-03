@@ -1,7 +1,7 @@
-<?php include "header.php" ?>
-<section class="h-100 bg-dark">
-  <div class="container py-5 h-100">
-    <div class="row d-flex justify-content-center align-items-center h-100">
+<?php include "header2.php" ?>
+<section class=" bg-dark">
+  <div class="container py-3">
+    <div class="row d-flex justify-content-center align-items-center ">
       <div class="col">
         <div class="card card-registration my-4">
           <div class="row g-0">
@@ -41,4 +41,4 @@
     </div>
   </div>
 </section>
-<?php include "footer.php" ?>
+?php include "footer.php" ?>
