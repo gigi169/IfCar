@@ -1,0 +1,40 @@
+ROTEIRO DE APRESENTACAO - IFCAR
+
+1. Abra http://localhost/Teste_IfCar/.
+   - A pagina inicial direciona para login.php.
+   - Explique que as caronas so ficam visiveis depois da autenticacao.
+
+2. Entre com uma conta demonstrativa.
+   - Email: ana.souza@estudantes.ifpr.edu.br
+   - Senha: senha123
+
+3. No painel, mostre as duas colunas.
+   - Pedidos de carona: estudantes que precisam de transporte.
+   - Caronas oferecidas: motoristas e vagas disponiveis.
+
+4. Clique em "+ Publicar pedido" e preencha origem, destino, data, horario e passageiros.
+   - Ao salvar, mostre a mensagem de sucesso e o pedido no painel.
+
+5. Clique em "+ Oferecer carona" e publique uma carona com vagas.
+   - Mostre a mensagem de confirmacao e a quantidade de vagas.
+
+6. Entre com outra conta e clique em "Solicitar carona".
+   - Explique que o sistema cria um registro em solicitacoes.
+   - Mostre que Numeropassageiros em caronas diminui uma vaga.
+   - Tente solicitar a mesma carona novamente para mostrar a protecao contra duplicidade.
+
+7. Abra "Meu perfil".
+   - Mostre os contadores de publicacoes e reservas.
+   - Mostre "Minhas publicacoes" e "Minhas reservas".
+   - Cancele uma reserva e explique que a vaga e devolvida automaticamente.
+
+8. Explique o banco de dados.
+   - usuarios guarda os dados de acesso.
+   - caronas guarda ofertas e pedidos, identificados pela categoria.
+   - solicitacoes liga o usuario que reservou a carona.
+   - As chaves estrangeiras preservam a integridade entre as tabelas.
+
+9. Explique a instalacao.
+   - database\instalar.sql cria o banco e o usuario de aplicacao.
+   - bootstrap.php cria tabelas inexistentes sem apagar dados existentes.
+   - scripts\seed_exemplos.php adiciona dados de demonstracao sem duplicar.

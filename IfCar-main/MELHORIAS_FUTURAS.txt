@@ -1,0 +1,30 @@
+MELHORIAS FUTURAS - IFCAR
+
+Este documento reúne sugestões de evolução para versões futuras do projeto.
+
+1. Segurança de senhas
+   Substituir o algoritmo MD5 por password_hash() no cadastro e
+   password_verify() no login. Essas funções são mais adequadas para
+   armazenar senhas em aplicações reais.
+
+2. Validação no navegador
+   Adicionar validações em JavaScript para orientar o usuário antes do
+   envio dos formulários, mantendo as validações atuais feitas no PHP.
+
+3. Recuperação de senha
+   Criar uma funcionalidade para que o estudante possa recuperar o
+   acesso à conta por e-mail.
+
+4. Filtros de busca
+   Permitir filtrar caronas por origem, destino, data e horário.
+
+5. Avaliações
+   Permitir que passageiros e motoristas avaliem a experiência após a
+   realização de uma carona.
+
+6. Interface responsiva
+   Aperfeiçoar a experiência de uso em telas menores, como celulares.
+
+7. Notificações
+   Informar motoristas e passageiros quando uma reserva for criada ou
+   cancelada.
