@@ -95,32 +95,6 @@ $caronas = [];
                 >
 
                     <!-- DADOS DO USUÁRIO -->
-                    <div class="section">
-
-                        <h2 class="section-title">Dados do usuário</h2>
-
-                        <div class="locations">
-
-                            <div>
-                                <label for="Nomeusuario">
-                                    Nome Completo
-                                </label>
-
-                                <input
-                                    type="text"
-                                    id="Nomeusuario"
-                                    name="Nomeusuario"
-                                    value="<?= htmlspecialchars($_SESSION["Nomeusuario"]) ?>"
-                                    placeholder="Digite seu nome completo"
-                                    readonly
-                                    required
-                                >
-                            </div>
-
-                        </div>
-
-                    </div>
-
 
                     <!-- LOCALIZAÇÃO -->
                     <div class="section">
